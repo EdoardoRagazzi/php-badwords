@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-$var = 'Php is the best'
+$var = 'Php is the best';
+$lunghezzavar =strlen($var);
+
+
 ?>
 
 
@@ -13,7 +16,38 @@ $var = 'Php is the best'
 </head>
 <body>
 
-<h1> Best Code ? : <?php echo $var ?> </h1>
+<h1> Best Code  : <?php echo  $var  ?> </h1>
+<h1> Length Code  : <?php echo  $lunghezzavar ?> </h1>
+
+<input type="text" placeholder="Parola da censurare" id="word" name="word">
+
+
+
+
+<?php 
+
+
+function getvalue(){
+     valueword = document.getElementById("word").value
+console.log(valueworld) };
+
+getvalue();
+
+
+
+// $nuovavar = str_replace($_GET['word'], '***', $var);
+
+// echo '<pre>';
+// print_r($data);
+// echo '</pre>';
+
+?>
+
     
+
+
+
+
+</script>
 </body>
 </html>
